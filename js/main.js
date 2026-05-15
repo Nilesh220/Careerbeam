@@ -68,6 +68,21 @@ function submitLeadForm(e) {
   document.getElementById('successWrap').style.display  = 'block';
 }
 
+/* ── Read More for What is CareerBeam (mobile only) ─── */
+(function() {
+  var p   = document.getElementById('whatIsText');
+  var btn = document.getElementById('readMoreBtn');
+  if (!p || !btn) return;
+  if (window.innerWidth <= 768) {
+    p.classList.add('clamped');
+    btn.style.display = 'inline-block';
+    btn.addEventListener('click', function() {
+      var collapsed = p.classList.toggle('clamped');
+      btn.textContent = collapsed ? 'Read More' : 'Read Less';
+    });
+  }
+})();
+
 /* ── Testimonial carousel dots (mobile) ─────────────── */
 (function() {
   var grid = document.querySelector('.testi-grid');
