@@ -300,6 +300,9 @@ input, textarea, button { font-family: inherit; }
   line-height: 1.75;
 }
 
+/* Hidden on desktop; media query below shows it on mobile */
+.read-more-btn { display: none; }
+
 /* Full-width blue callout band */
 .what-is-blue {
   background: #0378C6;
