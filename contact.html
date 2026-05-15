@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — CareerBeam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════ SIDEBAR ══════════════ -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-head">
+    <a href="Index.html" class="logo-link">
+      <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+    </a>
+    <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">&#10005;</button>
+  </div>
+  <ul class="sidebar-nav">
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="#">Events <i class="fas fa-chevron-down" style="font-size:.75rem"></i></a></li>
+  </ul>
+  <div class="sidebar-foot">
+    <button class="btn-survey" onclick="openLeadForm()">
+      <i class="fas fa-pencil-alt"></i> Survey Form
+    </button>
+  </div>
+</aside>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="Index.html" class="logo-link">
+      <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+      <li class="has-dropdown">
+        <a href="#">Events <i class="fas fa-chevron-down" style="font-size:.7rem"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">QS MBA &amp; Masters Fair</a></li>
+          <li><a href="#">Ascend Beyond</a></li>
+          <li><a href="#">Initium 2023</a></li>
+          <li><a href="#">HP Future Ready Podcast</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ══════════════ CONTACT HERO ══════════════ -->
+<section class="page-hero contact-hero"></section>
+
+<!-- ══════════════ CONTACT FORM ══════════════ -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-card">
+
+      <!-- Left: Details -->
+      <div class="contact-left">
+        <h3>Contact Details</h3>
+        <div class="contact-detail">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Suit 3, 4th Floor, Samruddhi Venture Park, MIDC Central Rd, Andheri East, Mumbai – 400093</p>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-envelope"></i>
+          <p>enquiry@vigorlaunchpad.com</p>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-phone-alt"></i>
+          <p>+91 7208070768 | 022 4978 2431</p>
+        </div>
+        <div class="contact-socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-right">
+        <h3>Get in Touch</h3>
+        <p class="form-sub">We will get back to you in 24 / 48 hrs and will help you with your query.</p>
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email Id" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Mobile Number" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">SUBMIT NOW</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>About Company</h4>
+        <p class="footer-item"><i class="fas fa-map-marker-alt"></i> Vigor launchPad, Suit 3, 4th Floor, Samruddhi Venture Park, MIDC Central Rd, Andheri East, Mumbai – 400093</p>
+        <p class="footer-item"><i class="fas fa-phone"></i> 7208070768 | 022 4978 2431</p>
+        <p class="footer-item"><i class="fas fa-envelope"></i> equiry@vigorlaunchpad.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Let's Connect</h4>
+        <div class="footer-connect">
+          <input type="text" placeholder="Hello">
+          <button class="footer-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2021. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">INSTAGRAM</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════ LEAD FORM MODAL ══════════════ -->
+<div class="modal-backdrop" id="leadModal">
+  <div class="lead-box">
+    <div class="lead-head">
+      <a href="Index.html" class="logo-link">
+        <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+      </a>
+      <button class="lead-hamburger">&#9776;</button>
+    </div>
+    <div id="leadFormWrap">
+      <h2>Take Charge of Your Future with CareerBeam</h2>
+      <p class="lead-desc">Share your contact details with us and let our career experts guide you on your next steps</p>
+      <form onsubmit="submitLeadForm(event)">
+        <div class="form-group">
+          <label>Full name *</label>
+          <input type="text" placeholder="Rahul Sharma" required>
+        </div>
+        <div class="form-group">
+          <label>Email Id *</label>
+          <input type="email" placeholder="example@example.com" required>
+        </div>
+        <div class="form-group">
+          <label>Mobile Number *</label>
+          <input type="tel" placeholder="8369452391" required>
+        </div>
+        <div class="form-group">
+          <label>Which College/School are you studying in? *</label>
+          <input type="text" placeholder="Example High School">
+        </div>
+        <div class="form-group">
+          <label>What are you currently studying? *</label>
+          <input type="text" placeholder="TY BCom, SY BSc, FY BA">
+        </div>
+        <div class="form-group">
+          <label>What stream are you interested in? *</label>
+          <textarea placeholder="I am interested in pursuing fashion designing..."></textarea>
+        </div>
+        <label class="form-check">
+          <input type="checkbox"> Subscribe for event updates &amp; newsletter.
+        </label>
+        <button type="submit" class="btn btn-primary btn-full">SUBMIT NOW</button>
+      </form>
+    </div>
+    <div id="successWrap" style="display:none">
+      <div class="success-box">
+        <h2>Registered Successfully</h2>
+        <a href="Index.html" class="btn btn-primary btn-full" onclick="closeLeadForm()">HOME</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

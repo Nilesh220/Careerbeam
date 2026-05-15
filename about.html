@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — CareerBeam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════ SIDEBAR ══════════════ -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-head">
+    <a href="Index.html" class="logo-link">
+      <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+    </a>
+    <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">&#10005;</button>
+  </div>
+  <ul class="sidebar-nav">
+    <li><a href="Index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="#">Events <i class="fas fa-chevron-down" style="font-size:.75rem"></i></a></li>
+  </ul>
+  <div class="sidebar-foot">
+    <button class="btn-survey" onclick="openLeadForm()">
+      <i class="fas fa-pencil-alt"></i> Survey Form
+    </button>
+  </div>
+</aside>
+
+<!-- ══════════════ NAVBAR ══════════════ -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="Index.html" class="logo-link">
+      <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="about.html" class="active">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li class="has-dropdown">
+        <a href="#">Events <i class="fas fa-chevron-down" style="font-size:.7rem"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">QS MBA &amp; Masters Fair</a></li>
+          <li><a href="#">Ascend Beyond</a></li>
+          <li><a href="#">Initium 2023</a></li>
+          <li><a href="#">HP Future Ready Podcast</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ══════════════ PAGE HERO ══════════════ -->
+<section class="page-hero about-page-hero"></section>
+
+<!-- ══════════════ OUR MISSION ══════════════ -->
+<section class="mission">
+  <div class="container">
+    <h2>Our Mission</h2>
+    <p>To create a strong and trustworthy connection with students, schools, colleges, universities, educational professionals and parents for every educational and Career-related requirement.</p>
+  </div>
+</section>
+
+<!-- ══════════════ OUR GOALS ══════════════ -->
+<section class="goals">
+  <div class="container">
+    <h2>Our Goals</h2>
+    <div class="goals-grid">
+      <div class="goal-item">
+        <div class="goal-icon"><i class="fas fa-graduation-cap"></i></div>
+        <h3>Student-centric Goal</h3>
+        <p>To make emerging Career opportunities highly accessible to young enthusiasts who are looking forward to it</p>
+      </div>
+      <div class="goal-item">
+        <div class="goal-icon"><i class="fas fa-bullhorn"></i></div>
+        <h3>Awareness-centric Goal</h3>
+        <p>To keep students, parents and other concerned people updated with relevant news and blogs by professionals</p>
+      </div>
+      <div class="goal-item">
+        <div class="goal-icon"><i class="fas fa-university"></i></div>
+        <h3>Institution-centric Goal</h3>
+        <p>To connect top schools, colleges, and universities of India and across the world to our student population of India</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ WHY CAREERBEAM ══════════════ -->
+<section class="why">
+  <div class="container">
+    <h2 class="section-heading">Why CareerBeam?</h2>
+    <div class="why-grid">
+      <div class="why-card">
+        <p>Helps reach the mass and become choice of the masses</p>
+      </div>
+      <div class="why-card">
+        <p>Helps admission department to ideate, curate and execute sessions across India</p>
+      </div>
+      <div class="why-card">
+        <p>Creates awareness about the emerging academic programs to be offered</p>
+      </div>
+      <div class="why-card">
+        <p>Helps teachers expand their student network and create their own individual identity on our digital space</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CB XPERIENCES ══════════════ -->
+<section class="xperiences">
+  <div class="container">
+    <h2 class="section-heading">From Career-clueless to Career-focused</h2>
+    <p class="section-sub">Join us on a transformative journey to discover the Career you want to be in</p>
+    <div class="xp-grid">
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-laptop-code"></i></div>
+        <span class="xp-name">Webinar</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-podcast"></i></div>
+        <span class="xp-name">Podcast</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-envelope-open-text"></i></div>
+        <span class="xp-name">Email Marketing</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-walking"></i></div>
+        <span class="xp-name">A Campus Walkthrough</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+        <span class="xp-name">Seminar</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fab fa-whatsapp"></i></div>
+        <span class="xp-name">WhatsApp Marketing</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-tools"></i></div>
+        <span class="xp-name">Workshops</span>
+      </div>
+      <div class="xp-card">
+        <div class="xp-icon"><i class="fas fa-user-tie"></i></div>
+        <span class="xp-name">Demo Sessions by known faculty</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ OUR REACH ══════════════ -->
+<section class="reach">
+  <div class="container">
+    <div class="reach-card">
+      <div class="reach-map">
+        <img src="images/india-map.png" alt="India Map showing CareerBeam reach" loading="lazy">
+        <!-- shown when map image is missing -->
+        <div class="reach-map-ph"><i class="fas fa-map-marked-alt"></i></div>
+      </div>
+      <div class="reach-info">
+        <h2>Our Reach</h2>
+        <p>We've set up a strong network of youth across India by constantly working with the young generation. We've affiliations with A and A+ grade colleges in 20+ cities across India:</p>
+        <div class="cities-grid">
+          <span>Mumbai</span>
+          <span>Delhi</span>
+          <span>Bangalore</span>
+          <span>Pune</span>
+          <span>Mangalore</span>
+          <span>Patna</span>
+          <span>Guwahati</span>
+          <span>Dehradun</span>
+          <span>Goa</span>
+          <span>Chandigarh</span>
+          <span>Kolkata</span>
+          <span>Ranchi</span>
+          <span>Chennai</span>
+          <span>Indore</span>
+          <span>Darjeeling</span>
+          <span>Jaipur</span>
+          <span>Lucknow</span>
+          <span>Hyderabad</span>
+          <span>Bhopal</span>
+          <span>Ahmedabad</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>About Company</h4>
+        <p class="footer-item"><i class="fas fa-map-marker-alt"></i> Vigor launchPad, Suit 3, 4th Floor, Samruddhi Venture Park, MIDC Central Rd, Andheri East, Mumbai – 400093</p>
+        <p class="footer-item"><i class="fas fa-phone"></i> 7208070768 | 022 4978 2431</p>
+        <p class="footer-item"><i class="fas fa-envelope"></i> equiry@vigorlaunchpad.com</p>
+      </div>
+      <div class="footer-col">
+        <h4>Let's Connect</h4>
+        <div class="footer-connect">
+          <input type="text" placeholder="Hello">
+          <button class="footer-send" aria-label="Send"><i class="fas fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2021. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="#">FACEBOOK</a>
+        <a href="#">TWITTER</a>
+        <a href="#">INSTAGRAM</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════ LEAD FORM MODAL ══════════════ -->
+<div class="modal-backdrop" id="leadModal">
+  <div class="lead-box">
+    <div class="lead-head">
+      <a href="Index.html" class="logo-link">
+        <img src="images/CB-Logo-layers.png" alt="CareerBeam" class="logo-img">
+      </a>
+      <button class="lead-hamburger">&#9776;</button>
+    </div>
+    <div id="leadFormWrap">
+      <h2>Take Charge of Your Future with CareerBeam</h2>
+      <p class="lead-desc">Share your contact details with us and let our career experts guide you on your next steps</p>
+      <form onsubmit="submitLeadForm(event)">
+        <div class="form-group">
+          <label>Full name *</label>
+          <input type="text" placeholder="Rahul Sharma" required>
+        </div>
+        <div class="form-group">
+          <label>Email Id *</label>
+          <input type="email" placeholder="example@example.com" required>
+        </div>
+        <div class="form-group">
+          <label>Mobile Number *</label>
+          <input type="tel" placeholder="8369452391" required>
+        </div>
+        <div class="form-group">
+          <label>Which College/School are you studying in? *</label>
+          <input type="text" placeholder="Example High School">
+        </div>
+        <div class="form-group">
+          <label>What are you currently studying? *</label>
+          <input type="text" placeholder="TY BCom, SY BSc, FY BA">
+        </div>
+        <div class="form-group">
+          <label>What stream are you interested in? *</label>
+          <textarea placeholder="I am interested in pursuing fashion designing..."></textarea>
+        </div>
+        <label class="form-check">
+          <input type="checkbox"> Subscribe for event updates &amp; newsletter.
+        </label>
+        <button type="submit" class="btn btn-primary btn-full">SUBMIT NOW</button>
+      </form>
+    </div>
+    <div id="successWrap" style="display:none">
+      <div class="success-box">
+        <h2>Registered Successfully</h2>
+        <a href="Index.html" class="btn btn-primary btn-full" onclick="closeLeadForm()">HOME</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
