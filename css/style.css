@@ -924,8 +924,10 @@ input, textarea, button { font-family: inherit; }
 }
 
 @media (max-width: 768px) {
-  .nav-links { display: none; }
-  .hamburger  { display: flex; }
+  .nav-links  { display: none; }
+  .hamburger  { display: flex; margin-left: auto; }
+  .logo-img   { height: 38px; }
+  .nav-container { padding: 0 20px; }
   .hero {
     min-height: clamp(300px, 93.3vw, 450px);
     padding: 48px 20px;
